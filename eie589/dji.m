@@ -100,7 +100,7 @@ function path = reconstruct_path(came_from, current)
 end
 
 function neighbors = get_neighbors(node, grid_size)
-    % 获取邻居节点，包括斜向
+   
     directions = [-1, -1; -1, 0; -1, 1; 0, -1; 0, 1; 1, -1; 1, 0; 1, 1];
     neighbors = [];
     for i = 1:size(directions, 1)
